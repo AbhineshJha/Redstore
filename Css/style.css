@@ -1,0 +1,394 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    background-color:aliceblue;
+    padding: 15px 12px;
+    position: sticky;
+     top: 0%; 
+     z-index: 999;
+    box-shadow: 5px 6px 10px rgb(18, 18, 18); 
+ } 
+
+a {
+    text-decoration: none;
+    color: black;
+    /* padding: 18px ; */
+}
+
+
+ul,
+li {
+    display: inline;
+    padding: 25px;
+}
+
+button {
+    float: right;
+}  
+
+ a.ac{
+    background-color: blue;
+    color: beige;
+    padding: 18px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    
+}
+
+a:hover {
+    /* background-color: blue; */
+    color:red;
+    font-weight: bold;
+    /* padding: 19px; */
+    /* color: aliceblue; */
+
+}
+button {
+    float: right;
+    
+}
+
+
+.inp{
+    padding: 3px 40px;
+    border-radius: 5px;
+    border: none;
+    width: 350px;
+    height: 30px;
+    box-shadow: 2px 3px;
+     box-shadow: 7px 7px 7px grey;
+     border-radius: 5px;
+    
+}
+
+.pic {
+    position: relative;
+    /*width: 1520px;*/
+    height: 580px;
+    background-image: url('../img/pic.jpg');
+    background-size: cover;
+    border: 2px solid rgb(178, 175, 175);
+    background-repeat: no-repeat;
+    /* position: fixed; */
+
+}
+
+.shop {
+    width: 110px;
+    height: 40px;
+    background-color: aqua;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 2px;
+    font-size: 20px;
+    border-radius: 15px;
+    padding-top: 8px;
+
+}
+
+.ale {
+    width: 500px;
+    height: 500px;
+    margin-left: 200px;
+    margin-top: 180px;
+    
+}
+
+marquee {
+    position: fixed;
+}
+
+.mot {
+    background-color: rgb(242, 14, 14);
+    width: 120px;
+    height: 5px;
+    margin-left: 750px;
+}
+
+.why {
+    background-color: lightgrey;
+    width: 100%;
+    height: 180px;
+    /* display: inline-flex; */
+    padding: 10px;
+    margin-bottom: 15px;
+
+}
+
+.free {
+    background-color: rgb(13, 32, 89);
+    width: 200px;
+    height: 150px;
+    color: aliceblue;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding-left: 8px;
+    position: relative;
+    bottom: 60px;
+    box-shadow: 10px 10px 10px red;
+
+}
+
+.Fast {
+    background-color: rgb(18, 37, 88);
+    width: 200px;
+    height: 150px;
+    color: aliceblue;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding-left: 8px;
+    position: relative;
+    bottom: 60px;
+     box-shadow: 10px 10px 10px red;
+
+}
+
+.Best {
+    background-color: rgb(22, 39, 93);
+    width: 200px;
+    height: 150px;
+    position: relative;
+    bottom: 60px;
+    color: aliceblue;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding-left: 8px;
+     box-shadow: 10px 10px 10px red;
+
+}
+
+.psd {
+    margin-left: 250px;
+    display: flex;
+
+}
+
+.boy {
+    position: relative;
+    /*width: 1520px;*/
+    height: 480px;
+    background-image: url('img/new.jpg');
+    background-size: cover;
+    border: 2px solid rgb(178, 175, 175);
+    background-repeat: no-repeat;
+
+}
+
+.new {
+    width: 502px;
+    height: 500px;
+    margin-left: 800px;
+    margin-top: 180px;
+
+}
+
+.now {
+    width: 110px;
+    height: 40px;
+    background-color: aqua;
+    /*color: white;*/
+    text-align: center;
+    margin-top: 2px;
+    font-size: 20px;
+    border-radius: 15px;
+    padding-top: 8px;
+
+}
+
+.tom {
+    background-color: rgb(242, 14, 14);
+    width: 120px;
+    height: 5px;
+    margin-left: 675px;
+}
+
+.main {
+    height: 550px;
+    background-color: rgb(240, 228, 228);
+    width: 400px;
+    /* border: solid; */
+    margin: 50px;
+    padding-left: 55px;
+    float: left;
+    box-shadow: 4px 5px 10px  15PX rgb(231, 207, 207);
+
+}
+
+.x {
+    height: 400px;
+    width: 350px;
+    /* border: solid; */
+    margin: 50px 50px;
+    float: left;
+    position: relative;
+    bottom: 50px;
+    right: 50px;
+}
+
+x,
+img {
+    text-align: center;
+    padding-right: 42px;
+    padding-top: 12px;
+    position: relative;
+    /*width: 300px*/
+}
+
+.y {
+    height: 100px;
+    width: 350px;
+    /* border: solid; */
+    margin: 50px 50px;
+    float: left;
+    position: relative;
+    bottom: 150px;
+    right: 50px;
+}
+
+.price {
+    display: inline;
+    padding-left: 20px;
+}
+
+#overflow {
+    font-size: 40px;
+
+}
+
+.buy {
+    position: relative;
+    top: 3px;
+    /*left: 12px;*/
+    right: 45px;
+    font-weight: bold;
+    /*border: 3px solid black;*/
+     box-shadow: 7px 7px 7px grey;
+     border-radius: 5px;
+    font-size: 20px;
+    border: none;
+    width: 300px;
+    background-color: aqua;
+    
+    position: relative;
+
+}
+.cart{
+     position: relative;
+    top: 15px;
+    /*left: 12px;*/
+    right: 45px;
+    font-weight: bold;
+    /*border: 3px solid black;*/
+     box-shadow: 7px 7px 7px grey;
+     border-radius: 5px;
+    font-size: 20px;
+    border: none;
+    width: 300px;
+    background-color: aqua;
+    
+    position: relative;
+
+}
+
+.last {
+    background-color: rgb(24, 23, 23);
+    width: 1520px;
+    height: 50px;
+    position: absolute;
+    /* margin-top: 2000px; */
+    color: aliceblue;
+    text-align: center;
+    padding-top: 20px;
+
+}
+.view{
+    background-color: black;
+    width: 400px;
+    height: 60px;
+    /*position: relative;*/
+    /*top: 50px;  */
+    text-align: center;
+    padding-top: 15px;
+    font-size: 24px;
+    border-radius: 200px;
+    margin-left: 550px;
+     box-shadow: 7px 7px 7px grey   ;
+   
+}
+
+
+.main1{
+    width: 100%;
+    height: 1800px;
+    background-color: white;
+}
+.iii:hover {
+    display: inline-block;
+    transform: scale(1.1, 1.1);
+    
+}
+.footer{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    color: aliceblue;
+    background-color: black;
+    
+
+}
+.address{
+    width: 350px;
+    height: 300px;
+    margin-left: 180px;
+    /* padding-left: 10px; */
+    /* background-color: rgb(182, 182, 194); */
+}
+.imgl{
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background: white;
+}
+.menu{
+    
+    width: 150px;
+    height: 300px;
+    /* background-color: rgb(119, 119, 122); */
+    margin-left: 50px;
+}
+.menu1{
+    margin-top: 40px;
+    margin-left: 120px;
+
+}
+.account{
+    width: 150px;
+    height: 300px;
+    /* background-color: blue; */
+    margin-left: 50px;
+}
+.acc1{
+    margin-top: 40px;
+    margin-left: 180px;
+
+}
+.footer1{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    text-align: center;
+    padding-top: 14px;
+}
+.smedias{
+    font-size: 30px;
+}
+.blaa{
+    color: aliceblue;
+}
+.blaa:hover{
+    color: aqua;
+}

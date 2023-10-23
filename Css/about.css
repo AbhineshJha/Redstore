@@ -1,0 +1,185 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    background-color:aliceblue;
+    padding: 15px 12px;
+    position: sticky;
+     top: 0%; 
+     z-index: 999;
+    box-shadow: 5px 6px 10px rgb(18, 18, 18); 
+ } 
+
+a {
+    text-decoration: none;
+    color: black;
+    /* padding: 18px ; */
+}
+
+
+ul,
+li {
+    display: inline;
+    padding: 25px;
+}
+
+button {
+    float: right;
+}  
+
+ a.ac{
+    background-color: blue;
+    color: beige;
+    padding: 18px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    
+}
+
+a:hover {
+    /* background-color: blue; */
+    color:red;
+    font-weight: bold;
+    /* padding: 19px; */
+    /* color: aliceblue; */
+
+}
+button {
+    float: right;
+    
+}
+
+
+.inp{
+    padding: 3px 40px;
+    border-radius: 5px;
+    border: none;
+    width: 350px;
+    height: 30px;
+    box-shadow: 2px 3px;
+     box-shadow: 7px 7px 7px grey;
+     border-radius: 5px;
+    
+}
+.why {
+    background-color: lightgrey;
+    width: 100%;
+    height: 180px;
+    margin-top: 80px;
+    /* display: inline-flex; */
+    padding: 10px;
+    margin-bottom: 15px;
+
+}
+
+.free {
+    background-color: rgb(13, 32, 89);
+    width: 200px;
+    height: 150px;
+    color: aliceblue;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding-left: 8px;
+    position: relative;
+    bottom: 60px;
+    box-shadow: 10px 10px 10px red;
+
+}
+
+.Fast {
+    background-color: rgb(18, 37, 88);
+    width: 200px;
+    height: 150px;
+    color: aliceblue;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding-left: 8px;
+    position: relative;
+    bottom: 60px;
+     box-shadow: 10px 10px 10px red;
+
+}
+
+.Best {
+    background-color: rgb(22, 39, 93);
+    width: 200px;
+    height: 150px;
+    position: relative;
+    bottom: 60px;
+    color: aliceblue;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding-left: 8px;
+     box-shadow: 10px 10px 10px red;
+
+}
+
+.psd {
+    margin-left: 250px;
+    display: flex;
+
+}
+.footer{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    color: aliceblue;
+    background-color: black;
+    
+
+}
+.address{
+    width: 350px;
+    height: 300px;
+    margin-left: 180px;
+    /* padding-left: 10px; */
+    /* background-color: rgb(182, 182, 194); */
+}
+.imgl{
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background: white;
+}
+.menu{
+    
+    width: 150px;
+    height: 300px;
+    /* background-color: rgb(119, 119, 122); */
+    margin-left: 50px;
+}
+.menu1{
+    margin-top: 40px;
+    margin-left: 120px;
+
+}
+.account{
+    width: 150px;
+    height: 300px;
+    /* background-color: blue; */
+    margin-left: 50px;
+}
+.acc1{
+    margin-top: 40px;
+    margin-left: 180px;
+
+}
+.footer1{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    text-align: center;
+    padding-top: 14px;
+}
+.smedias{
+    font-size: 30px;
+}
+.blaa{
+    color: aliceblue;
+}
+.blaa:hover{
+    color: aqua;
+}
