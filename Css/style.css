@@ -412,3 +412,38 @@ img {
 .blaa:hover{
     color: aqua;
 }
+
+#tc {
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+  }
+
+  .categoryBox {
+    width: 98%;
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+
+  .categoryBox img {
+    width: 16%;
+    padding: 0px;
+  }
+
+  #thtbm {
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+  }
+
+  .thtbm {
+    width: 97%;
+    margin-left: 35px;
+  }
+
+  .thtbm img {
+    width: 48%;
+    margin-left: 12px;
+    margin-top: 12px;
+    padding: 0px;
+  }
