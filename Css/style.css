@@ -252,8 +252,6 @@ marquee {
 x,
 img {
     text-align: center;
-    padding-right: 42px;
-    padding-top: 12px;
     position: relative;
     /*width: 300px*/
 }
@@ -356,7 +354,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content:space-around;
-    padding: 0px 20px;
+    padding: 20px;
     color: aliceblue;
     background-color: black;
     
@@ -369,8 +367,7 @@ img {
 }
 .imgl{
     width: 200px;
-    margin-left: 20px;
-    margin-top: 20px;
+
     background: white;
 }
 .menu{
