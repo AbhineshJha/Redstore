@@ -392,3 +392,9 @@ img {
 .blaa:hover{
     color: aqua;
 }
+.button:hover {
+    transform: scale(1.05);
+  transition: transform 0.2s;
+  cursor: pointer;
+  }
+  
