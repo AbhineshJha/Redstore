@@ -353,17 +353,17 @@ img {
 }
 .footer{
     width: 100%;
-    height: 400px;
     display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    padding: 0px 20px;
     color: aliceblue;
     background-color: black;
     
 
 }
 .address{
-    width: 350px;
-    height: 300px;
-    margin-left: 180px;
+    width: 30%;
     /* padding-left: 10px; */
     /* background-color: rgb(182, 182, 194); */
 }
@@ -375,25 +375,16 @@ img {
 }
 .menu{
     
-    width: 150px;
-    height: 300px;
+    width: 30%;
     /* background-color: rgb(119, 119, 122); */
-    margin-left: 50px;
 }
 .menu1{
-    margin-top: 40px;
-    margin-left: 120px;
-
 }
 .account{
-    width: 150px;
-    height: 300px;
+    width: 30%;
     /* background-color: blue; */
-    margin-left: 50px;
 }
 .acc1{
-    margin-top: 40px;
-    margin-left: 180px;
 
 }
 .footer1{
