@@ -361,7 +361,7 @@ img {
 
 }
 .address{
-    width: 30%;
+    width: 60%;
     /* padding-left: 10px; */
     /* background-color: rgb(182, 182, 194); */
 }
@@ -372,13 +372,13 @@ img {
 }
 .menu{
     
-    width: 30%;
+    width: 20%;
     /* background-color: rgb(119, 119, 122); */
 }
 .menu1{
 }
 .account{
-    width: 30%;
+    width: 20%;
     /* background-color: blue; */
 }
 .acc1{
@@ -393,6 +393,9 @@ img {
 }
 .smedias{
     font-size: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
 .blaa{
     color: aliceblue;
