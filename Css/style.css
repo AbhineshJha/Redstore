@@ -77,12 +77,12 @@ button {
     padding: 3px 40px;
     border-radius: 5px;
     border: none;
-    width: 350px;
+    width: 300px;
     height: 30px;
+    border-radius: 5px;
     box-shadow: 2px 3px;
-     box-shadow: 7px 7px 7px grey;
-     border-radius: 5px;
-    
+    box-shadow: 7px 7px 7px grey;
+    margin-right:-4px;
 }
 
 .pic {

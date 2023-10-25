@@ -50,10 +50,11 @@
 ul,
 li {
     display: inline;
-    padding: 20px;
+    padding-top:20px;
+    padding: 10px;
 }
 
-/*button {
+/*button {          
     float: right;
 }*/  
 
@@ -86,9 +87,10 @@ li {
     height: 30px;
     border-radius: 5px;
     box-shadow: 2px 3px;
-     box-shadow: 7px 7px 7px grey;
-    
+    box-shadow: 7px 7px 7px grey;
+    margin-right:-4px;
 }
+
 .home{
     width: 100%px;
     height: 10px;
