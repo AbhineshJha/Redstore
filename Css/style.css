@@ -75,11 +75,12 @@ button {
 
 .inp{
     padding: 3px 40px;
-    border-radius: 5px;
-    border: none;
+    border: 2px solid rgb(215, 233, 250);
     width: 300px;
-    height: 30px;
-    border-radius: 5px;
+    height: 35px;
+    font-size:small;
+    border-radius: 20px;
+    background-color: transparent;
     box-shadow: 2px 3px;
     box-shadow: 7px 7px 7px grey;
     margin-right:-4px;
