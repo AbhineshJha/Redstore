@@ -23,7 +23,7 @@ a {
 ul,
 li {
     display: inline;
-    padding: 25px;
+    padding: 20px;
 }
 
 button {
@@ -55,15 +55,20 @@ button {
 
 .inp{
     padding: 3px 40px;
-    border-radius: 5px;
-    border: none;
-    width: 350px;
-    height: 30px;
+    border: 2px solid rgb(215, 233, 250);
+    width: 300px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: transparent;
     box-shadow: 2px 3px;
-     box-shadow: 7px 7px 7px grey;
-     border-radius: 5px;
-    
+    box-shadow: 7px 7px 7px grey;
+    margin-right:-4px;
 }
+
+.search_bar{
+    margin-left:20px;
+}
+
 .why {
     background-color: lightgrey;
     width: 100%;

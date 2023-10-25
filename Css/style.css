@@ -93,15 +93,17 @@ button {
   float: right;
 }
 
-.inp {
-  padding: 3px 40px;
-  border-radius: 5px;
-  border: none;
-  width: 350px;
-  height: 30px;
-  box-shadow: 2px 3px;
-  box-shadow: 7px 7px 7px grey;
-  border-radius: 5px;
+.inp{
+    padding: 3px 40px;
+    border: 2px solid rgb(215, 233, 250);
+    width: 300px;
+    height: 35px;
+    font-size:small;
+    border-radius: 20px;
+    background-color: transparent;
+    box-shadow: 2px 3px;
+    box-shadow: 7px 7px 7px grey;
+    margin-right:-4px;
 }
 
 .pic {
