@@ -49,6 +49,12 @@ textarea{
 color: aliceblue;
  box-shadow: 7px 7px 7px aqua;
 } 
+.contactusform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .submit{
     width: 120px;
     background-color: black;
@@ -59,9 +65,8 @@ color: aliceblue;
     border-radius: 10px;
     color: aliceblue;
     text-align: center;
-    margin-left: 700px;
      box-shadow: 7px 7px 7px grey;
-}
+}   
 
 .inp{
     padding: 3px 40px;
