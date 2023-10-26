@@ -108,7 +108,7 @@ button {
   position: relative;
   /*width: 1520px;*/
   height: 580px;
-  background-image: url("../img/pic.jpg");
+  background-image: url("../Assets/pic.jpg");
   background-size: cover;
   border: 2px solid rgb(178, 175, 175);
   background-repeat: no-repeat;
@@ -138,52 +138,46 @@ marquee {
   position: fixed;
 }
 
-.shop-with-us{
+.shop-with-us {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 3em;
 }
-.red{
+.red {
   color: red;
 }
 .why {
- /* background-color: lightgrey;*/
+  /* background-color: lightgrey;*/
   display: flex;
   flex-direction: column;
   width: 100vw;
   justify-content: space-between;
-
-
 }
 
-.icons{
+.icons {
   display: flex;
-  justify-content: space-around ;
+  justify-content: space-around;
   align-items: center;
   font-size: 5em;
-  color: #FF5E59;
+  color: #ff5e59;
 }
 
-.tags{
+.tags {
   display: flex;
   justify-content: space-around;
   font-size: 2rem;
   font-weight: 400;
   margin-bottom: 3rem;
   color: black;
-
 }
-
-
-
 
 .boy {
   position: relative;
   /*width: 1520px;*/
   height: 480px;
-  background-image: url("../img/new.jpg");
+  background-image: url("../Assets/new.jpg");
   background-size: cover;
   border: 2px solid rgb(178, 175, 175);
   background-repeat: no-repeat;
@@ -215,7 +209,7 @@ marquee {
   margin-left: 675px;
 }
 
-.products{
+.products {
   width: 100vw;
   display: flex;
   justify-content: space-around;
@@ -224,7 +218,7 @@ marquee {
 
 .main {
   height: 550px;
- /* background-color: rgb(240, 228, 228);*/
+  /* background-color: rgb(240, 228, 228);*/
   background-color: whitesmoke;
   width: 400px;
   margin: 50px;
@@ -245,8 +239,8 @@ marquee {
   right: 50px;
 }
 
-
-.x , img {
+.x,
+img {
   text-align: center;
   position: relative;
   /*width: 300px*/
@@ -335,7 +329,7 @@ marquee {
   height: 1800px;
   background-color: white;
 }
-.iii{
+.iii {
   transition: all 0.3s ease;
 }
 .iii:hover {
