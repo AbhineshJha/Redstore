@@ -1,13 +1,8 @@
-
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-}
-html ,body{
-  padding: 0;
-  margin: 0;
 }
 
 #myBtn {
@@ -44,24 +39,18 @@ html ,body{
   /* Add a dark-grey background on hover */
 }
 
-/* this css belongs to the navbar */
-
 .nav {
-  background-color: rgb(255, 255, 255);
-  display: flex;
-  align-items: center;
-  position: fixed;
-  width: 100%;
-  z-index: 999;
+  background-color: aliceblue;
+  padding: 15px 12px;
+  position: sticky;
   top: 0%;
-  -webkit-box-shadow: 3.5px 3px 16px -2px #7e7e7ea3;
-  -moz-box-shadow: 3.5px 3px 16px -2px #7e7e7ea3;
-  box-shadow: 3.5px 3px 16px -2px #7e7e7ea3;
+  z-index: 999;
+  box-shadow: 0px 4px 6px rgb(0, 0, 0.1);
 }
 
 a {
   text-decoration: none;
-  /* color: rgb(234, 37, 37); */
+  color: rgb(234, 37, 37);
   /* padding: 18px ; */
 }
 
@@ -75,41 +64,14 @@ button {
   float: right;
 }
 
-nav {
-  /* display: inline; */
-  margin-left: auto;
-  margin-right:2%;
-  padding: 0%;
-  width: -moz-fit-content;
-  width: fit-content;
-  /* margin-left: -50px; */
+.nav-options {
+  display: inline;
+  margin-left: -50px;
 }
 
-nav li input{
-  border: none;
-  outline-width: 0px ;
-  /* padding: 4%; */
-  padding: 0%;
-  background-color:transparent ;
-  amrgin
-}
-nav input::placeholder{
-  color: rgb(186, 184, 184);
-  font-family: inherit;
-  font-size: 1rem;
-}
-nav li:last-child{
-  background-color: #ecf1f3;
-  border-radius: 50px;
-  padding: 1rem;
-}
-
-nav a {
+.nav-options a {
   color: black;
-  margin-right: 0%;
-  margin-left: auto;
 }
-
 
 a.ac {
   background-color: blue;
@@ -122,7 +84,7 @@ a.ac {
 a:hover {
   /* background-color: blue; */
   color: red;
-  /* font-weight: bold; */
+  font-weight: bold;
   /* padding: 19px; */
   /* color: aliceblue; */
 }
@@ -131,7 +93,7 @@ button {
   float: right;
 }
 
-/* .inp {
+.inp {
   padding: 3px 40px;
   border-radius: 5px;
   border: none;
@@ -140,7 +102,7 @@ button {
   box-shadow: 2px 3px;
   box-shadow: 7px 7px 7px grey;
   border-radius: 5px;
-} */
+}
 
 .pic {
   position: relative;
@@ -176,40 +138,46 @@ marquee {
   position: fixed;
 }
 
-.shop-with-us {
+.shop-with-us{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 3em;
 }
-.red {
+.red{
   color: red;
 }
 .why {
-  /* background-color: lightgrey;*/
+ /* background-color: lightgrey;*/
   display: flex;
   flex-direction: column;
   width: 100vw;
   justify-content: space-between;
+
+
 }
 
-.icons {
+.icons{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-around ;
   align-items: center;
   font-size: 5em;
-  color: #ff5e59;
+  color: #FF5E59;
 }
 
-.tags {
+.tags{
   display: flex;
   justify-content: space-around;
   font-size: 2rem;
   font-weight: 400;
   margin-bottom: 3rem;
   color: black;
+
 }
+
+
+
 
 .boy {
   position: relative;
@@ -247,7 +215,7 @@ marquee {
   margin-left: 675px;
 }
 
-.products {
+.products{
   width: 100vw;
   display: flex;
   justify-content: space-around;
@@ -256,7 +224,7 @@ marquee {
 
 .main {
   height: 550px;
-  /* background-color: rgb(240, 228, 228);*/
+ /* background-color: rgb(240, 228, 228);*/
   background-color: whitesmoke;
   width: 400px;
   margin: 50px;
@@ -277,8 +245,8 @@ marquee {
   right: 50px;
 }
 
-.x,
-img {
+
+.x , img {
   text-align: center;
   position: relative;
   /*width: 300px*/
@@ -367,7 +335,7 @@ img {
   height: 1800px;
   background-color: white;
 }
-.iii {
+.iii{
   transition: all 0.3s ease;
 }
 .iii:hover {
