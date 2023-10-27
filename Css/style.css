@@ -1,9 +1,17 @@
+
+
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+html ,body{
+  padding: 0;
+  margin: 0;
+}
+
 
 #myBtn {
   display: none;
@@ -34,19 +42,26 @@
   /* Increase font size */
 }
 
+
 #myBtn:hover {
   background-color: #555;
   /* Add a dark-grey background on hover */
 }
 
+
 .nav {
-  background-color: aliceblue;
-  padding: 15px 12px;
-  position: sticky;
-  top: 0%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
   z-index: 999;
-  box-shadow: 0px 4px 6px rgb(0, 0, 0.1);
+  top: 0%;
+  -webkit-box-shadow: 3.5px 3px 16px -2px #e8e7e7;
+  -moz-box-shadow: 3.5px 3px 16px -2px #e8e7e7;
+  box-shadow: 3.5px 3px 16px -2px #e8e7e7;
 }
+
 
 a {
   text-decoration: none;
@@ -54,24 +69,48 @@ a {
   /* padding: 18px ; */
 }
 
+
+
 ul,
 li {
   display: inline;
   padding: 25px;
 }
 
+
 button {
   float: right;
 }
 
-.nav-options {
-  display: inline;
-  margin-left: -50px;
+
+nav {
+  /* display: inline; */
+  margin-left: auto;
+  margin-right:0%;
+  padding: 0%;
+  /* margin-left: -50px; */
+}
+nav li input{
+  outline-width:0px;
+  border: none;
+  background-color: transparent;
+}
+nav li:last-child{
+  background-color: #b6b3b346;
+  border-radius: 50px;
+  padding: 1rem;
+}
+nav li input::placeholder{
+  font-size: 1.1em;
 }
 
-.nav-options a {
+
+nav a {
   color: black;
+  margin-right: 0%;
+  margin-left: auto;
 }
+
 
 a.ac {
   background-color: blue;
@@ -81,6 +120,7 @@ a.ac {
   border-bottom-left-radius: 6px;
 }
 
+
 a:hover {
   /* background-color: blue; */
   color: red;
@@ -89,11 +129,13 @@ a:hover {
   /* color: aliceblue; */
 }
 
+
 button {
   float: right;
 }
 
-.inp {
+
+/* .inp {
   padding: 3px 40px;
   border-radius: 5px;
   border: none;
@@ -102,7 +144,8 @@ button {
   box-shadow: 2px 3px;
   box-shadow: 7px 7px 7px grey;
   border-radius: 5px;
-}
+} */
+
 
 .pic {
   position: relative;
@@ -114,6 +157,7 @@ button {
   background-repeat: no-repeat;
   /* position: fixed; */
 }
+
 
 .shop {
   width: 110px;
@@ -127,6 +171,7 @@ button {
   padding-top: 8px;
 }
 
+
 .ale {
   width: 500px;
   height: 500px;
@@ -134,49 +179,48 @@ button {
   margin-top: 180px;
 }
 
+
 marquee {
   position: fixed;
 }
 
-.shop-with-us{
+
+.shop-with-us {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 3em;
 }
-.red{
+.red {
   color: red;
 }
 .why {
- /* background-color: lightgrey;*/
+  /* background-color: lightgrey;*/
   display: flex;
   flex-direction: column;
   width: 100vw;
   justify-content: space-between;
-
-
 }
 
-.icons{
+
+.icons {
   display: flex;
-  justify-content: space-around ;
+  justify-content: space-around;
   align-items: center;
   font-size: 5em;
-  color: #FF5E59;
+  color: #ff5e59;
 }
 
-.tags{
+
+.tags {
   display: flex;
   justify-content: space-around;
   font-size: 2rem;
   font-weight: 400;
   margin-bottom: 3rem;
   color: black;
-
 }
-
-
 
 
 .boy {
@@ -189,12 +233,14 @@ marquee {
   background-repeat: no-repeat;
 }
 
+
 .new {
   width: 502px;
   height: 500px;
   margin-left: 800px;
   margin-top: 180px;
 }
+
 
 .now {
   width: 110px;
@@ -208,6 +254,7 @@ marquee {
   padding-top: 8px;
 }
 
+
 .tom {
   background-color: rgb(242, 14, 14);
   width: 120px;
@@ -215,16 +262,18 @@ marquee {
   margin-left: 675px;
 }
 
-.products{
+
+.products {
   width: 100vw;
   display: flex;
   justify-content: space-around;
   margin-bottom: 3rem;
 }
 
+
 .main {
   height: 550px;
- /* background-color: rgb(240, 228, 228);*/
+  /* background-color: rgb(240, 228, 228);*/
   background-color: whitesmoke;
   width: 400px;
   margin: 50px;
@@ -233,6 +282,7 @@ marquee {
   /*border: 2px solid grey;*/
   /*box-shadow: 4px 5px 10px 15px rgb(231, 207, 207);*/
 }
+
 
 .x {
   height: 400px;
@@ -246,11 +296,13 @@ marquee {
 }
 
 
-.x , img {
+.x,
+img {
   text-align: center;
   position: relative;
   /*width: 300px*/
 }
+
 
 .y {
   height: 100px;
@@ -263,14 +315,17 @@ marquee {
   right: 50px;
 }
 
+
 .price {
   display: inline;
   padding-left: 20px;
 }
 
+
 #overflow {
   font-size: 40px;
 }
+
 
 .buy {
   position: relative;
@@ -289,6 +344,7 @@ marquee {
   position: relative;
 }
 
+
 .cart {
   position: relative;
   top: 15px;
@@ -305,6 +361,7 @@ marquee {
   position: relative;
 }
 
+
 .last {
   background-color: rgb(24, 23, 23);
   width: 1520px;
@@ -315,6 +372,7 @@ marquee {
   text-align: center;
   padding-top: 20px;
 }
+
 
 .view {
   background-color: black;
@@ -330,18 +388,20 @@ marquee {
   box-shadow: 7px 7px 7px grey;
 }
 
+
 .main1 {
   width: 100%;
   height: 1800px;
   background-color: white;
 }
-.iii{
+.iii {
   transition: all 0.3s ease;
 }
 .iii:hover {
   display: inline-block;
   transform: scale(1.1, 1.1);
 }
+
 
 .smedias {
   font-size: 30px;
@@ -350,13 +410,16 @@ marquee {
   justify-content: space-around;
 }
 
+
 .blaa {
   color: aliceblue;
 }
 
+
 .blaa:hover {
   color: aqua;
 }
+
 
 #tc {
   text-align: center;
@@ -364,16 +427,19 @@ marquee {
   font-size: 1.5rem;
 }
 
+
 .categoryBox {
   width: 98%;
   margin-left: 30px;
   margin-top: 20px;
 }
 
+
 .categoryBox img {
   width: 16%;
   padding: 0px;
 }
+
 
 #thtbm {
   text-align: center;
@@ -381,10 +447,12 @@ marquee {
   font-size: 1.5rem;
 }
 
+
 .thtbm {
   width: 97%;
   margin-left: 35px;
 }
+
 
 .thtbm img {
   width: 48%;
@@ -393,7 +461,9 @@ marquee {
   padding: 0px;
 }
 
+
 /* Footer styles */
+
 
 .footer {
   width: 100%;
@@ -405,10 +475,12 @@ marquee {
   background-color: black;
 }
 
+
 .footer-secondary {
   width: 40%;
   display: flex;
 }
+
 
 .address {
   width: 50%;
@@ -416,20 +488,24 @@ marquee {
   /* background-color: rgb(182, 182, 194); */
 }
 
+
 .imgl {
   width: 200px;
   background: white;
 }
+
 
 .menu {
   width: 50%;
   /* background-color: rgb(119, 119, 122); */
 }
 
+
 .account {
   width: 20%;
   /* background-color: blue; */
 }
+
 
 .footer1 {
   width: 100%;
@@ -439,22 +515,27 @@ marquee {
   padding-top: 14px;
 }
 
+
 .menu1 a {
   color: white;
 }
+
 
 .acc1 a {
   color: white;
 }
 
+
 .acc1 a:hover {
   color: white;
 }
+
 
 @media only screen and (max-width: 600px) {
   .footer {
     flex-direction: column-reverse;
   }
+
 
   .footer-secondary,
   .address {
@@ -462,7 +543,10 @@ marquee {
     margin-bottom: 20px;
   }
 
+
   .footer-secondary {
     margin-bottom: 40px;
   }
 }
+
+
