@@ -4,30 +4,37 @@
     box-sizing: border-box;
 }
 #a{
-    width: 600px;
+    width: 500px;
     height: 40px;
     padding: 10px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: sans-serif, Courier, monospace;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0,0.2);
+    
 }
 ::placeholder{
     font-size: large;
 }
 #b{
-    width: 600px;
+    width: 500px;
     height: 40px;
     padding: 10px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: sans-serif, Courier, monospace;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0,0.2);
 }
 #c{
-    width: 600px;
+    width: 500px;
     height: 40px;
     padding: 10px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: sans-serif, Courier, monospace;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0,0.2);
 }
 
 textarea{
     font-family: 'Courier New', Courier, monospace;
-    padding: 10px;
+    
 }
 .home{
     width: 100%px;
@@ -47,37 +54,31 @@ textarea{
     text-align: center  ;
   padding-top: 14px;
 color: aliceblue;
- box-shadow: 7px 7px 7px aqua;
+ box-shadow: 4px 4px 4px rgb(52, 108, 108,0.4);
 } 
-.contactusform{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 .submit{
     width: 120px;
-    background-color: black;
+    background-color: rgb(43, 29, 29);
     height: 62px;
     font-size: 24px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 15px;
-    border-radius: 10px;
+    border-radius: 6px;
     color: aliceblue;
     text-align: center;
-     box-shadow: 7px 7px 7px grey;
-}   
-
+    margin-left: 645px;
+     box-shadow: 5px 5px 5px grey;
+}
 .inp{
     padding: 3px 40px;
-    border: 2px solid rgb(215, 233, 250);
+    border-radius: 5px;
+    border: none;
     width: 300px;
-    height: 35px;
-    border-radius: 20px;
-    background-color: transparent;
+    border-radius: 5px;
+    height: 20px;
     box-shadow: 2px 3px;
-    box-shadow: 7px 7px 7px grey;
-    margin-right:-4px;
+     box-shadow: 5px 5px 5px grey;
+    
 }
 
 .last {
@@ -109,7 +110,8 @@ a {
 ul,
 li {
     display: inline;
-    padding: 20px;
+    padding: 25px;
+    margin-right: 10px;
 }
 
 button {
@@ -121,8 +123,7 @@ button {
     color: beige;
     padding: 18px;
     font-weight: bold;
-    border-top-right-radius: 6px;
-    border-bottom-left-radius: 6px;
+    border-radius: 6px;
     
 }
 
