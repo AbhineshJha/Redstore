@@ -483,7 +483,12 @@
         document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     }
 
-    
+    const hamburgerButton = document.getElementById('hamburger');
+  const nav = document.querySelector('nav');
+
+  hamburgerButton.addEventListener('click', () => {
+    nav.style.display = nav.style.display === 'flex' ? 'none' : 'flex';
+  });
 </script>
 <script src="https://kit.fontawesome.com/6d2bf5cc34.js" crossorigin="anonymous"></script>
 
