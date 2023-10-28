@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>About us</title>
-    <link rel="stylesheet" type="text/css" href="Css/about.css">
+    <title>Cart</title>
+    <link rel="stylesheet" type="text/css" href="Css/cart.css">
     <script src="https://kit.fontawesome.com/61673b2d06.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -13,9 +13,9 @@
             <STRONG>
                 <li><a href="index.html" ><i class="fa-solid fa-house"></i>&nbsp;Home</a></li>
             <li><a href="product.html" target="_blank"><i class="fa-brands fa-product-hunt"></i>&nbsp;Products</a></li>
-            <li><a href="about.html" class="ac"><i class="fa-solid fa-address-card"></i>&nbsp;About</a></li>
+            <li><a href="about.html" target="_blank" ><i class="fa-solid fa-address-card"></i>&nbsp;About</a></li>
             <li><a href="contactform.html" target="_blank"><i class="fa-solid fa-phone"></i>&nbsp;Contact</a></li>
-            <li><a href="cart.html" target="_blank"><i class="fas fa-shopping-cart"></i>&nbsp;Cart</a></li>
+            <li><a href="cart.html" class="ac"><i class="fas fa-shopping-cart"></i>&nbsp;Cart</a></li>
 
         <li class="search_bar"><input type="text" placeholder=" search products " class="inp"><i style="font-size: 20px; 
             position: relative;right: 28px;top: 4px;
@@ -25,31 +25,110 @@
         </ul>
     </div>
 
-<div class="why">
-        <div class="psd">
-
-            <div class="Fast">
-                <h1>Fast Delivery</h1>
-                <br>
-                <br>
-                <b>Lorem ipsum dolor sit amet consectetur adipisicing.</b>
+    <div class="cart"
+    style="body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    
+    .cart {
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        padding: 20px;
+        text-align: center;
+        width: 300px;
+    }
+    
+    .cart h2 {
+        font-size: 24px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .cart ul {
+        list-style: none;
+        padding: 0;
+        text-align: left;
+    }
+    
+    .cart li {
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        margin: 10px 0;
+    }
+    
+    .cart img {
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+    }
+    
+    .cart .total {
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+    .box{
+        border-width: 2px;
+        border-color: black;
+        background-color: red;
+    }
+    ">
+        <h2 style="margin-left: 500px; font-size:60px; color: red;">Your Cart</h2>
+        <br><br><br>
+        <!-- <ul>
+            <li class="box">
+                <img src="img\whiteshirt.jpg" width="250px alt="Product 1">
+                
+            </li>
+            <li class="box">
+                <img src="img\skyblueshirt.jpg" width="250px alt="Product 2">
+                
+            </li>
+            <li class="box">
+                <img src="img\pakgreen.jpg " width="250px" alt="Product 3">
+               
+            </li>
+        </ul> -->
+        <div class="pri" style="display: flex; flex-wrap: wrap;margin-left: 90px; margin-top: 15px; font-size: 30px;" >
+            
+            <div class="price"  style="flex: 31%;">
+                <img src="img\whiteshirt.jpg" width="250px alt="Product 1">
             </div>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <div class="free">
-                <h1>Free shipping</h1>
-                <br>
-                <br>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <div class="price"  style="flex: 31%;">
+                <img src="img\skyblueshirt.jpg" width="250px alt="Product 2">            
             </div>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <div class="Best">
-                <h1>Best Quality</h1>
-                <br>
-                <br>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <div class="price"  style="flex: 31%;">
+                <img src="img\pakgreen.jpg " width="250px" alt="Product 3">              
+            </div>
+        </div><div class="pri" style="display: flex; flex-wrap: wrap;margin-left: 90px; margin-top: 15px; font-size: 30px;" >
+            
+            <div class="price"  style="flex: 30%;">
+                Product 1 - $10
+            </div>
+            <div class="price"  style="flex: 30%;">
+                Product 2 - $15                
+            </div>
+            <div class="price"  style="flex: 30%;">
+                Product 3 - $20                
             </div>
         </div>
+        
+        <br><br><br><br><br><br>
+        <div class="total" style="margin-left: 500px; font-size: 50px; margin-top: 0px;">
+            Total: $45
+        </div> 
     </div>
+    
+
 
     <div class="footer">
     <div class="address">
