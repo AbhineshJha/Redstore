@@ -17,7 +17,8 @@
 
 <body>
     <div class="nav">
-        <li><a href="#"><img style="margin-left:12px ; margin-top: 12px;" src="img/logo.png" width="120px"></a></li>
+        <li><a href="#"><img style="margin-left:12px ; " src="https://abhineshjha.github.io/Redstore/img/logo.png" width="120px"></a></li>
+        <button id="hamburger"><i></i><i></i><i></i></button>
         <nav>
             <li><a href="" class="ac"><i class="fa-solid fa-house"></i>&nbsp;Home</a></li>
             <li><a href="product.html" target="_blank"><i class="fa-brands fa-product-hunt"></i>&nbsp;Products</a></li>
@@ -26,8 +27,8 @@
             <li><a href="cart.html" target="_blank"><i class="fas fa-shopping-cart"></i>&nbsp;Cart</a></li>
             <li>
             <input type="text" placeholder="Search products " class="inp"><i  class="fa-solid fa-magnifying-glass"></i>
-            </li>
-        </nav>
+          </li>
+       
         <!--  <span style="background-color: aliceblue; border: 1px solid black; border-radius: 4px;"
                 class="srh"><b>Search</b></span> -->
 
@@ -470,7 +471,7 @@
 
     function scrollFunction() {
         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            mybutton.style.display = "block";
+            mybutton.style.display = "none";
         } else {
             mybutton.style.display = "none";
         }
@@ -482,8 +483,16 @@
         document.body.scrollTop = 0; // For Safari
         document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     }
+
+    const hamburgerButton = document.getElementById('hamburger');
+  const nav = document.querySelector('nav');
+
+  hamburgerButton.addEventListener('click', () => {
+    nav.style.display = nav.style.display === 'flex' ? 'none' : 'flex';
+  });
 </script>
 <script src="https://kit.fontawesome.com/6d2bf5cc34.js" crossorigin="anonymous"></script>
+
 
 
 </html>
