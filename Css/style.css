@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -7,6 +10,7 @@
 html, body {
   padding: 0;
   margin: 0;
+  font-family: Poppins;
 }
 
 #myBtn {
@@ -78,6 +82,7 @@ nav {
   margin-left: auto;
   margin-right: 0%;
   padding: 0%;
+  font-family: Poppins;
 }
 
 nav li input {
@@ -215,7 +220,6 @@ button {
   margin-top: 2px;
   font-size: 20px;
   border-radius: 15px;
-  padding-top: 8px;
 }
 
 
@@ -224,6 +228,17 @@ button {
   height: 500px;
   margin-left: 200px;
   margin-top: 180px;
+  font-family: Poppins;
+  font-size: 14px;
+}
+
+#heading{
+  font-family: Agbalumo;
+}
+
+#heading1{
+  font-family: Poppins;
+  font-weight: 900;
 }
 
 
@@ -264,9 +279,10 @@ marquee {
   display: flex;
   justify-content: space-around;
   font-size: 2rem;
-  font-weight: 400;
+  font-weight: 800;
   margin-bottom: 3rem;
-  color: black;
+  color: rgb(81, 81, 81);
+  font-family: Poppins;
 }
 
 
@@ -285,7 +301,8 @@ marquee {
   width: 502px;
   height: 500px;
   margin-left: 800px;
-  margin-top: 180px;
+  margin-top: 120px;
+  font-family: Poppins, sans-serif;
 }
 
 
@@ -299,6 +316,14 @@ marquee {
   font-size: 20px;
   border-radius: 15px;
   padding-top: 8px;
+}
+
+.heading2{
+  font-family: Agbalumo, sans-serif;
+}
+
+.heading3{
+  font-family: Poppins, sans-serif;
 }
 
 
