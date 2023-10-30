@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>Login Page</title>
+    <title>Registration Page</title>
     <link rel="stylesheet" href="Css/login.css" />
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
   </head>
@@ -11,18 +11,26 @@
       <div class="logo">
         <img src="img\logo.png" alt="Logo" />
       </div>
-      <h2>Login</h2>
+      <h2>Registration</h2>
       <form action="process_login.php" method="POST">
         <div class="form-group">
           <label for="username">Username:</label>
           <input type="text" id="username" name="username" required />
         </div>
         <div class="form-group">
+          <label for="username">Email:</label>
+          <input type="text" id="email" name="email" required />
+        </div>
+        <div class="form-group">
           <label for="password">Password:</label>
           <input type="password" id="password" name "password" required>
         </div>
         <div class="form-group">
-          <button type="submit">Login</button>
+          <label for="password">Password Confirm:</label>
+          <input type="password" id="passconfirm" name "passconfirm" required>
+        </div>
+        <div class="form-group">
+          <button type="submit">Submit</button>
         </div>
       </form>
     </div>
