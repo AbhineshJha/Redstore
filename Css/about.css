@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Poppins&display=swap');
+
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Poppins;
 }
 
 .nav {
@@ -10,8 +14,8 @@
     position: sticky;
      top: 0%; 
      z-index: 999;
-    box-shadow: 0px 4px 6px rgb(0, 0, 0.1); 
- } 
+     border-bottom: 2px solid rgb(255, 84, 84);    
+} 
 
 a {
     text-decoration: none;
@@ -70,55 +74,58 @@ button {
 }
 
 .why {
-    background-color: lightgrey;
+    background-color: rgb(114, 107, 255);
     width: 100%;
-    height: 180px;
-    margin-top: 80px;
+    height: 280px;
+    margin-top: 180px;
     /* display: inline-flex; */
     padding: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 55px;
 
 }
 
 .free {
-    background-color: rgb(13, 32, 89);
-    width: 200px;
-    height: 150px;
+    background-color: rgb(255, 48, 103);
+    width: 300px;
+    height: 200px;
     color: aliceblue;
     border-bottom-left-radius: 12px;
     border-top-right-radius: 12px;
-    padding-left: 8px;
+    padding-top: 10px;
+    padding-left: 18px;
     position: relative;
     bottom: 60px;
-    box-shadow: 10px 10px 10px red;
+    box-shadow: 10px 10px 10px rgba(173, 165, 255, 0.549);
 
 }
 
 .Fast {
-    background-color: rgb(18, 37, 88);
-    width: 200px;
-    height: 150px;
+    background-color: rgb(255, 48, 103);
+    width: 300px;
+    height: 200px;
     color: aliceblue;
     border-bottom-left-radius: 12px;
     border-top-right-radius: 12px;
-    padding-left: 8px;
+    padding-top: 10px;
+    padding-left: 18px;
     position: relative;
     bottom: 60px;
-     box-shadow: 10px 10px 10px red;
+    box-shadow: 10px 10px 10px rgba(173, 165, 255, 0.549);
 
 }
 
 .Best {
-    background-color: rgb(22, 39, 93);
-    width: 200px;
-    height: 150px;
+    background-color: rgb(255, 48, 103);
+    width: 300px;
+    height: 200px;
     position: relative;
     bottom: 60px;
     color: aliceblue;
     border-bottom-left-radius: 12px;
     border-top-right-radius: 12px;
-    padding-left: 8px;
-     box-shadow: 10px 10px 10px red;
+    padding-top: 10px;
+    padding-left: 18px;
+    box-shadow: 10px 10px 10px rgba(173, 165, 255, 0.549);
 
 }
 
