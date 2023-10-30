@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Account</title>
+</head>
+<body style="background-color:lightgray; font-family: Arial, sans-serif; margin: 0; padding: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh;">
+
+    <header style="background-color: #007bff; color: #fff; text-align: center; padding: 20px; font-size: 24px;">
+        Welcome, Ram
+    </header>
+
+    <div class="account" style="background-color: #fff; box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); border-radius: 10px; padding: 20px; width: 400px; margin: 20px auto; text-align: center; transition: background-color 0.3s;">
+
+        <section class="user-info" style="border-bottom: 1px solid #ddd; padding-bottom: 20px;">
+            <h2 style="font-size: 24px; margin: 0 0 20px; padding: 0; color: #007bff;">Account Information</h2>
+            <ul style="list-style-type: none; padding: 0;">
+                <li style="font-size: 18px; margin: 10px 0; display: flex; justify-content: space-between;">
+                    <span><strong>Name:</strong></span>
+                    <span>Ram</span>
+                </li>
+                <li style="font-size: 18px; margin: 10px 0; display: flex; justify-content: space-between;">
+                    <span><strong>Email:</strong></span>
+                    <span>Ram200@gmail.com</span>
+                </li>
+                <li style="font-size: 18px; margin: 10px 0; display: flex; justify-content: space-between;">
+                    <span><strong>Phone:</strong></span>
+                    <span>(123) 456-7890</span>
+                </li>
+                <li style="font-size: 18px; margin: 10px 0; display: flex; justify-content: space-between;">
+                    <span><strong>Country:</strong></span>
+                    <span>India</span>
+                </li>
+            </ul>
+        </section>
+
+        <section class="order-history">
+            <h2 style="font-size: 24px; margin: 20px 0 20px; padding: 0; color: #007bff;">Order History</h2>
+            <table style="width: 100%; border-collapse: collapse;">
+                <tr style="background-color: #007bff; color: #fff; font-size: 18px;">
+                    <th style="padding: 10px;">Order ID</th>
+                    <th style="padding: 10px;">Date</th>
+                    <th style="padding: 10px;">Total Amount (₹)</th>
+                </tr>
+                <tr>
+                    <td style="font-size: 16px; padding: 10px;">001</td>
+                    <td style="font-size: 16px; padding: 10px;">2023-10-10</td>
+                    <td style="font-size: 16px; padding: 10px;">₹500.00</td>
+                </tr>
+                <tr>
+                    <td style="font-size: 16px; padding: 10px;">002</td>
+                    <td style="font-size: 16px; padding: 10px;">2023-10-15</td>
+                    <td style="font-size: 16px; padding: 10px;">₹750.00</td>
+                </tr>
+            </table>
+        </section>
+
+        <button style="width: 100%; padding: 15px; background-color: #007bff; color: #fff; border: none; border-radius: 10px; cursor: pointer; margin-top: 20px; font-size: 18px; transition: background-color 0.3s;" onclick="location.href='login.html';" onmouseover="this.style.backgroundColor='#0056b3'" onmouseout="this.style.backgroundColor='#007bff'">Log Out</button>
+
+    </div>
+
+</body>
+</html>
