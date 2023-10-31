@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Checkout</title>
+    <style>
+        /* CSS for styling the checkout section with soothing colors */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e74040;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: lightgray;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        h2 {
+            color: #3498db;
+        }
+
+        .checkout-form {
+            margin-top: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="text"],
+        select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+
+        button {
+            background-color: #5e8ca1;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #4a7291;
+        }
+
+        .order-summary {
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+
+        .order-summary h3 {
+            color: #333;
+        }
+
+        .shipping-method {
+            margin-top: 20px;
+        }
+
+        .discount-code {
+            margin-top: 20px;
+        }
+
+        .discount-code input {
+            width: 60%;
+        }
+
+        .quantity-adjustment {
+            margin-top: 20px;
+        }
+
+        .quantity-adjustment label {
+            font-weight: normal;
+        }
+
+        .quantity-adjustment input {
+            width: 20%;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Checkout</h2>
+        <form class="checkout-form">
+            <div class="form-group">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class "form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+
+            <div class="form-group">
+                <label for="address">Shipping Address:</label>
+                <input type="text" id="address" name="address" required>
+            </div>
+
+            <div class="shipping-method">
+                <label for="shipping">Select Shipping Method:</label>
+                <select id="shipping" name="shipping" required>
+                    <option value="standard">Standard Shipping</option>
+                    <option value="express">Express Shipping</option>
+                </select>
+            </div>
+
+            <div class="order-summary">
+                <h3>Order Summary</h3>
+                <!-- Display order summary details here -->
+            </div>
+
+            <div class="quantity-adjustment">
+                <label for="quantity">Adjust Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" value="1">
+            </div>
+
+            <div class="discount-code">
+                <label for="discount">Discount Code:</label>
+                <input type="text" id="discount" name="discount">
+                <button id="apply-discount" type="button">Apply</button>
+            </div>
+
+            <button type="submit">Place Order</button>
+        </form>
+    </div>
+</body>
+</html>
