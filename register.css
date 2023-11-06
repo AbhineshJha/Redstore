@@ -1,0 +1,75 @@
+body {
+    font-family: ui-rounded;
+    background-color: #e74040;
+}
+
+.container {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group button {
+    background-color: #358dda;
+    color: #fff;
+    border: none;
+    padding: 10px 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: auto;
+    font-size: 16px;
+    display: block;
+}
+
+.form-group button:hover {
+    background-color: #0069c4;
+    transition: 0.2s;
+}
+
+
+h2 {
+    text-align: center;
+}
+
+.form-group a {
+    text-decoration: none;
+    color: black;
+}
+
+.form-group:nth-child(7) {
+    display: flex;
+}
+
+.form-group:nth-child(7) label {
+    margin-right:5px;
+}
+
+.form-group:nth-child(7) a {
+    color: #0069c4;
+}
+
