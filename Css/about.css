@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Poppins&display=swap');
 
-
 * {
     padding: 0;
     margin: 0;
@@ -8,24 +7,27 @@
     font-family: Poppins;
 }
 
+/* Navigation Bar Styles */
 .nav {
-    background-color:aliceblue;
-    padding: 15px 12px;
-    position: sticky;
-     top: 0%; 
-     z-index: 999;
-     border-bottom: 2px solid rgb(255, 84, 84);    
-} 
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between; /* This pushes .nav-left and .nav-right to opposite ends */
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    -webkit-box-shadow: 3.5px 3px 16px -2px #e8e7e7;
+    -moz-box-shadow: 3.5px 3px 16px -2px #e8e7e7;
+    box-shadow: 3.5px 3px 16px -2px #e8e7e7;
+}
 
 a {
     text-decoration: none;
-    color: rgb(242, 49, 49);
-    /* padding: 18px ; */
+    color: black;
 }
 
-
-ul,
-li {
+ul, li {
     display: inline;
     padding: 20px;
 }
@@ -34,30 +36,24 @@ button {
     float: right;
 }  
 
- a.ac{
+a.ac {
     background-color: blue;
     color: beige;
     padding: 18px;
     border-top-right-radius: 6px;
     border-bottom-left-radius: 6px;
-    
 }
 
 a:hover {
-    /* background-color: blue; */
-    color:red;
+    color:black;
     font-weight: bold;
-    /* padding: 19px; */
-    /* color: aliceblue; */
-
 }
+
 button {
     float: right;
-    
 }
 
-
-.inp{
+.inp {
     padding: 3px 40px;
     border: 2px solid rgb(215, 233, 250);
     width: 300px;
@@ -69,18 +65,25 @@ button {
     margin-right:-4px;
 }
 
-.search_bar{
-    margin-left:20px;
+.search_bar {
+    margin-left:auto;
 }
 
 .why {
-    background-color: rgb(114, 107, 255);
+    /* background-color: rgb(114, 107, 255); */
     width: 100%;
     height: 280px;
-    margin-top: 180px;
+    margin-top: auto;
     /* display: inline-flex; */
     padding: 10px;
-    margin-bottom: 55px;
+    margin-bottom: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh; /* Full viewport height */
+    margin-top: 20px; /* Reduced from 180px */
+    margin-bottom: 20px; /* Reduced from 55px */
+    padding: 10px; /* Adjust if necessary */
 
 }
 
@@ -130,8 +133,14 @@ button {
 }
 
 .psd {
-    margin-left: 250px;
+    margin-left: auto;
     display: flex;
+    margin-left: auto; /* Center the content if it makes sense */
+    margin-right: auto; /* Center the content if it makes sense */
+    display: flex;
+    justify-content: space-around; /* This helps in evenly spacing the cards */
+    align-items: center;
+    margin: auto; /* Centers the content and removes any unwanted margin */
 
 }
 
@@ -205,3 +214,75 @@ button {
         margin-bottom: 40px;
     }
 }
+
+/* Base styles for the cards */
+
+.psd {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%; /* Adjust as needed */
+    max-width: 1200px; /* Maximum width */
+    margin: 0 auto;
+    margin-left: auto; /* Center the content if it makes sense */
+    margin-right: auto; /* Center the content if it makes sense */
+}
+
+.card {
+    width: 300px;
+    height: 200px;
+    color: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    text-align: center;
+    background: linear-gradient(145deg, #0093E9, #80D0C7);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px; 
+}
+
+/* Vibrant gradient backgrounds */
+.Fast {
+    background: linear-gradient(145deg, #ff2e69, #FBC638);
+}
+
+.free {
+    background: linear-gradient(145deg, #34e89e, #0f3443);
+}
+
+.Best {
+    background: linear-gradient(145deg, #6DD5FA, #FF758C);
+}
+
+/* Hover effect for cards with animation */
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.card:hover h1, .card:hover p {
+    transform: translateY(-10px);
+    transition: transform 0.3s ease;
+}
+
+/* Additional styling for text */
+.card h1 {
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+
+.card p {
+    transition: transform 0.3s ease;
+}
+
+
+
+
+
